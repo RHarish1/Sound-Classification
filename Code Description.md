@@ -17,6 +17,7 @@ This Python script is designed for audio classification tasks using Convolutiona
 
 ### Explanation:
 - The script first prepares the dataset by extracting Mel spectrogram features from audio files.
+- The script then obtains the output classes (all 10 of them) from the metadata file.
 - It then defines a CNN model for classification and trains it using k-fold cross-validation.
 - The average accuracy across all folds is calculated and printed.
 - The `plot_model` function is used to visualize the architecture of the CNN model and save it as an image file (`cnn_model.png`).
